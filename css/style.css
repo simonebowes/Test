@@ -1,0 +1,292 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+}
+
+body,
+html {
+  height: 100vh;
+    
+}
+
+.header {
+    position: fixed;
+    z-index: 10;
+    height: 100%;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  -webkit-perspective: 1000;
+          perspective: 1000;
+}
+
+.section {
+  height: 100%;
+  width: calc( 100% / 5 );
+  float: left;
+  position: relative;
+  overflow: hidden;
+}
+.section:nth-child(1) {
+  background: #25564D;
+}
+.section:nth-child(2) {
+  background: #97DDCF;
+}
+.section:nth-child(3) {
+  background: #524760;
+}
+
+.sections {
+  width: 500%;
+  height: 100%;
+  overflow: hidden;
+}
+
+
+
+.logo a {
+  width: 75px;
+  height: 75px;
+  border: none;
+  fill: none;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  position: fixed; 
+  margin: 30px;
+}
+
+.logo {
+    opacity: 0.1;
+}
+
+.logo:hover {
+    opacity: 1;
+    transition: 800ms;
+  transition-timing-function: ease-in-out;
+}
+
+#home {
+    z-index: 1;
+}
+
+.Highlight {
+    z-index: 1;
+    position: absolute;
+    margin-top: 10px;
+}
+
+.Circle1 {
+    transform-origin: 50% 50%;
+    transform: scale(1);
+    animation: pulse1 2s infinite;
+    transition-timing-function: ease-in-out;
+
+}
+
+@keyframes pulse1 {
+    0% {
+        transform: scale(0.95);
+        opacity: 0;
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+    }
+
+    10% {
+        transform: scale(1);
+        opacity: 0.2;
+        box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+    }
+
+    100% {
+        transform: scale(0.95);
+        opacity: 0;
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    }
+}
+
+.Circle2 {
+    transform-origin: 50% 50%;
+    transform: scale(1);
+    animation: pulse2 2s infinite;
+    transition-timing-function: ease-in-out;
+}
+
+@keyframes pulse2 {
+    0% {
+        transform: scale(0.95);
+        opacity: 0;
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+    }
+
+       60% {
+        transform: scale(1);
+        opacity: 0.2;
+        box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+    }
+
+    100% {
+        transform: scale(0.95);
+        opacity: 0;
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    }
+}
+
+.scroll-downs {
+  position: absolute;
+  margin-top: 25%;
+  margin-left: 93%;
+  z-index: 2;
+}
+
+.mousey {
+  position: fixed;
+  width: 3px;
+  padding: 10px 15px;
+  height: 35px;
+  border: 2px solid #fff;
+  border-radius: 25px;
+  opacity: 0.35;
+  box-sizing: content-box;
+
+}
+.scroller {
+  width: 3px;
+  height: 10px;
+  border-radius: 25%;
+  background-color: #fff;
+  animation-name: scroll;
+  animation-duration: 2.2s;
+  animation-timing-function: cubic-bezier(.15,.41,.69,.94);
+  animation-iteration-count: infinite;
+}
+
+@keyframes scroll {
+  0% { opacity: 0; }
+  10% { transform: translateY(0); opacity: 1; }
+  100% { transform: translateY(15px); opacity: 0;}
+}
+
+
+#myP5 {
+    position: fixed;
+    width=100%; 
+    height= 100%;
+}
+
+.seabottom {
+    background: #25564D;
+}
+
+.page {
+    background-color: #25564D;
+    height: 100vh;
+}
+
+
+.recipe {
+    z-index: 1;
+    position: absolute;
+}
+
+h1 {
+  text-align: center;
+}
+
+.box {
+  margin: 0 auto;
+  padding: 35px;
+  text-align: center;
+  z-index: 2;
+  position: absolute;  
+}
+
+.button {
+  font-size: 30px;
+  padding: 10px;
+  opacity: 0.3;
+  color: #fff;
+  border-radius: 60px;
+  border: 2px solid white;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+  position: fixed;
+    z-index: 99999;
+/*
+  right: 1960px;
+  top:900px;
+*/
+    left: 50px;
+    bottom: 200px;
+}
+
+.button:hover {
+  opacity: 1;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+  z-index: 2;
+    position: absolute;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: #25564D;
+}
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+  line-height: 30px;
+}
+
+@media screen and (max-width: 700px){
+  .box{
+    width: 70%;
+  }
+  .popup{
+    width: 70%;
+  }
+}
+

@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080">
+  <title>Sea</title>
+  <g id="Layer_1" data-name="Layer 1">
+    <rect x="1" width="1920" height="1080" style="fill: #524760"/>
+    <circle cx="329" cy="195" r="54.05" style="fill: #fff"/>
+    <path d="M327.82,136s53.65,58.55,0,124c0,0-56.81,1.15-56.81-62C271,198,268.91,142.89,327.82,136Z" style="fill: #524760"/>
+  </g>
+  <g id="waves-b">
+    <path id="wave6" d="M1911.7,527.44S1821.63,386,1699.63,402s-169,145.55-358.5,163.77S974.63,595,931.63,527s-192-184-290-104-105,192-233,183S-8.37,401-8.87,401.5-9.37,831-9.37,831h1920Z" style="fill: #0f725f"/>
+    <path id="wave5" d="M1911.7,401.5S1852.63,576,1600.63,591s-256-82-398-95-140,124-369,165-365-134-530-190-256,46-290,83-23,277-23,277h1920Z" style="fill: #97ddcf;opacity: 0.6000000000000001"/>
+    <path id="wave4" d="M1910.63,611.78s-268.15-139.7-561.58,67.76S979.63,643,772.63,623s-188,130-391,113-206-152.24-390-145.62L-9.37,905h1920Z" style="fill: #25564d;opacity: 0.8"/>
+  </g>
+  <g id="Layer_6" data-name="Layer 6">
+    <circle cx="1451" cy="173" r="6" style="fill: #fff"/>
+    <circle cx="1253" cy="517" r="6" style="fill: #fff"/>
+    <circle cx="1720" cy="608" r="6" style="fill: #fff;opacity: 0.1"/>
+    <circle cx="1627" cy="346" r="6" style="fill: #fff"/>
+    <circle cx="1846" cy="123" r="6" style="fill: #fff"/>
+    <circle cx="251" cy="540" r="6" style="fill: #fff;opacity: 0.1"/>
+    <circle cx="450" cy="370" r="6" style="fill: #fff"/>
+    <circle cx="481" cy="100" r="6" style="fill: #fff"/>
+    <circle cx="594" cy="632" r="6" style="fill: #fff;opacity: 0.1"/>
+    <circle cx="110" cy="100" r="6" style="fill: #fff"/>
+  </g>
+  <g id="Layer_5" data-name="Layer 5">
+    <polygon points="806 697.93 855.25 336.77 1068.66 336.77 1114 697.93 806 697.93" style="fill: #fff"/>
+    <rect x="817.73" y="312.54" width="285.33" height="24.23" style="fill: #1e1e1e"/>
+    <polygon points="857.1 312.54 856.81 236.71 1064.75 236.71 1064.75 312.54 857.1 312.54" style="fill: #fff"/>
+    <path d="M857,237S839,137,960,134s105,103,105,103Z" style="fill: #1e1e1e"/>
+    <rect x="881" y="179" width="42" height="42" style="fill: #524760"/>
+    <rect x="938" y="179" width="42" height="42" style="fill: #524760"/>
+    <rect x="995" y="179" width="42" height="42" style="fill: #524760"/>
+    <circle cx="961" cy="123" r="11" style="fill: #1e1e1e"/>
+    <rect x="835.73" y="226.54" width="247.27" height="24.23" style="fill: #1e1e1e"/>
+    <path d="M840.77,443s118.89,10,232.06-73L1083,451s-121,90.2-251,56.1Z" style="fill: #a34545"/>
+    <path d="M819.85,596.36s173.64,35.89,272.9-67.74l10.31,73.75s-65.88,98.2-292.47,61.91Z" style="fill: #a34545"/>
+    <rect x="936" y="632" width="42" height="66" style="fill: #1e1e1e"/>
+    <polygon points="855.25 336.77 1114.5 697.5 1068.66 336.77 855.25 336.77" style="fill: #524760;opacity: 0.25"/>
+    <polygon points="856.88 255 898.75 312.54 1065 313 1064.75 250.77 856.88 247.88 856.88 255" style="fill: #524760;opacity: 0.25"/>
+    <path d="M267.49,700.43l64.65,83.27,110.67,23.87,55.82,40.53,349.74-18.72s178.57-30.9,186.16-26.77,159.11,32.07,164.07,30.12,89.69,21.94,95.52,21.81,122.82-26,127.81-26.72,159.3-34.77,159.3-34.77L1608,719.51s-57.14-20.82-68.82-21.18" style="fill: #647c2f"/>
+  </g>
+  <g id="Layer_2" data-name="Layer 2">
+    <circle cx="958" cy="282" r="415" style="fill: #fff;opacity: 0.03"/>
+    <circle cx="958" cy="282" r="326" style="fill: #fff;opacity: 0.1"/>
+    <circle cx="958" cy="282" r="229" style="fill: #fff;opacity: 0.15"/>
+    <circle cx="958" cy="282" r="229" style="fill: #fff;opacity: 0.15"/>
+    <circle cx="958" cy="282" r="179" style="fill: #fff;opacity: 0.29"/>
+    <circle cx="958" cy="282" r="88" style="fill: #fff;opacity: 0.43"/>
+    <path d="M104,910s183-68,389,51,503,105,544,27" style="fill: #97ddcf"/>
+    <circle cx="959" cy="282" r="27" style="fill: #ffba0d"/>
+  </g>
+  <g id="waves-f">
+    <path id="wave3" d="M-.07,776.44S90,635,212,651,381,796.55,570.5,814.77,937,844,980,776s192-184,290-104,105,192,233,183,417-205,417.5-204.5.5,429.5.5,429.5H1Z" style="fill: #0f725f"/>
+    <path id="wave2" d="M-.07,650.5S59,825,311,840s256-82,398-95,140,124,369,165,365-134,530-190,256,46,290,83,23,277,23,277H1Z" style="fill: #97ddcf;opacity: 0.6000000000000001"/>
+    <path id="wave1" d="M1,850.74s268.14-109.22,561.57,53S932,875.15,1139,859.52s188,101.64,391,88.35,206-119,390-113.86l1,246H1Z" style="fill: #25564d;opacity: 0.8"/>
+  </g>
+</svg>
